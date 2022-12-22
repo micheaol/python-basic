@@ -62,11 +62,13 @@
 lettersA = {"A", "B", "C", "D"}
 lettersB = {"D", "E", "F"}
 
-union = lettersA | lettersB
-interception = lettersA & lettersB
-difference = lettersA - lettersB
+# union = lettersA | lettersB
+# interception = lettersA & lettersB
+# difference = lettersA - lettersB
+# interception.add("W")
+# interce
 
 
-print(f"Union = {union}")
-print(f"interception = {interception}")
-print(f"difference = {difference}")
+print(f"Union = {lettersA.union(lettersB)}")
+print(f"interception = {lettersA.intersection(lettersB)}")
+print(f"difference = {lettersA.difference(lettersB)}")
