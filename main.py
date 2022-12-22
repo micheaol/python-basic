@@ -49,8 +49,6 @@
 
 
 # Sets in python:
-# numbers = [1, 1, 1]
-#
 # numberSets = {"A", "A", "B", "C"}
 #
 # print(numberSets)
@@ -79,8 +77,36 @@ lettersB = {"D", "E", "F"}
 # person["name"] = "Joyce"
 # print(person["name"])
 
-# for loop in python:
-names = ["Olatomiwa", "Ikeoluwa", "Simisoluwa", "Oluwasikemi"]
+# for loop through LIST and SETs in python:
+# names = ["Olatomiwa", "Ikeoluwa", "Simisoluwa", "Oluwasikemi"]
+#
+# cars = { "Benz", "Toyota", "Jeep"}
+#
+# for name in names:
+#     print(name)
 
-for name in names:
-    print(name)
+# for car in cars:
+#     print(car)
+
+# Looping through dictionary in python:
+
+# person = {
+#     "name": "Michael",
+#     "age": 25,
+#     "location": "Lagos"
+# }
+#
+# for key, value in person.items():
+#     print(f"value: {value}")
+#     print(f"key: {key}")
+
+
+# Exercise:
+# loop through a list of numbers and sum the value:
+numbers = [1, 2, 3, 4]
+
+number_sum = 0
+for number in numbers:
+    number_sum += number
+
+print(number_sum)
