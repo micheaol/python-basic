@@ -41,6 +41,9 @@
 # print(type([]))
 numbers = [1, 2, 3, 4, 5]
 
+print(numbers.pop())
+print(numbers.append(13))
+numbers.remove(13)
+del numbers[2]
 print(numbers)
-
 
