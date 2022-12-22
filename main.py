@@ -69,6 +69,12 @@ lettersB = {"D", "E", "F"}
 # interce
 
 
-print(f"Union = {lettersA.union(lettersB)}")
-print(f"interception = {lettersA.intersection(lettersB)}")
-print(f"difference = {lettersA.difference(lettersB)}")
+# print(f"Union = {lettersA.union(lettersB)}")
+# print(f"interception = {lettersA.intersection(lettersB)}")
+# print(f"difference = {lettersA.difference(lettersB)}")
+
+
+# Python dictionary:
+person = {"name": " Joyce", "age": 35, "address": "Lagos, Nigeria"}
+person["name"] = "Joyce"
+print(person["name"])
