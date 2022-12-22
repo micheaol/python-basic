@@ -39,11 +39,34 @@
 
 # List in python:
 # print(type([]))
-numbers = [1, 2, 3, 4, 5]
+# numbers = [1, 2, 3, 4, 5]
+#
+# print(numbers.pop())
+# print(numbers.append(13))
+# numbers.remove(13)
+# del numbers[2]
+# print(numbers)
 
-print(numbers.pop())
-print(numbers.append(13))
-numbers.remove(13)
-del numbers[2]
-print(numbers)
 
+# Sets in python:
+# numbers = [1, 1, 1]
+#
+# numberSets = {"A", "A", "B", "C"}
+#
+# print(numberSets)
+
+
+
+# Union/Interception/ Difference
+
+lettersA = {"A", "B", "C", "D"}
+lettersB = {"D", "E", "F"}
+
+union = lettersA | lettersB
+interception = lettersA & lettersB
+difference = lettersA - lettersB
+
+
+print(f"Union = {union}")
+print(f"interception = {interception}")
+print(f"difference = {difference}")
