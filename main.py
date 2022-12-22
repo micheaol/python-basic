@@ -31,13 +31,16 @@
 # print(email)
 
 # Ternary operators:
+# number = 0
+# message = "Positive" if number > 0 else "Negative"
+#
+# print(message)
 
 
-number = 0
-message = "Positive" if number > 0 else "Negative"
+# List in python:
+# print(type([]))
+numbers = [1, 2, 3, 4, 5]
 
-print(message)
-
-
+print(numbers)
 
 
