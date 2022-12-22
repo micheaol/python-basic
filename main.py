@@ -16,21 +16,27 @@
 
 # Multiple line of string
 
-name = "Michael"
-email = f"""
-Hello {name},
+# name = "Michael"
+# email = f"""
+# Hello {name},
+#
+# My name is {name}, I am writting to inform you of my promotion.
+#
+# Thank you for your help.
+#
+# Kinds,
+# {name}
+# """
+#
+# print(email)
 
-My name is {name}, I am writting to inform you of my promotion.
-
-Thank you for your help.
-
-Kinds,
-{name}
-"""
-
-print(email)
+# Ternary operators:
 
 
+number = 0
+message = "Positive" if number > 0 else "Negative"
+
+print(message)
 
 
 
