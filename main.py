@@ -75,6 +75,12 @@ lettersB = {"D", "E", "F"}
 
 
 # Python dictionary:
-person = {"name": " Joyce", "age": 35, "address": "Lagos, Nigeria"}
-person["name"] = "Joyce"
-print(person["name"])
+# person = {"name": " Joyce", "age": 35, "address": "Lagos, Nigeria"}
+# person["name"] = "Joyce"
+# print(person["name"])
+
+# for loop in python:
+names = ["Olatomiwa", "Ikeoluwa", "Simisoluwa", "Oluwasikemi"]
+
+for name in names:
+    print(name)
