@@ -121,8 +121,26 @@ lettersB = {"D", "E", "F"}
 
 
 # While loop in python:
-number = 0
+# number = 0
+#
+# while number < 10:
+#     print(number + 1)
+#     number += 1
 
-while number < 10:
-    print(number + 1)
-    number += 1
+# def say_hello(name):
+#     print(f"Hello {name}")
+#
+# say_hello("Simi")
+
+# function that return if you are adult:
+
+# def check_age(age):
+#     if age > 18:
+#         print("You are an adult")
+#     else:
+#         print("You are not elegable yet")
+# check_age(19)
+
+import math
+
+print(math.ceil(2.3445))
