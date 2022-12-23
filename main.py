@@ -103,10 +103,26 @@ lettersB = {"D", "E", "F"}
 
 # Exercise:
 # loop through a list of numbers and sum the value:
-numbers = [1, 2, 3, 4]
+# numbers = [1, 2, 3, 4]
+#
+# number_sum = 0
+# for number in numbers:
+#     number_sum += number
 
-number_sum = 0
-for number in numbers:
-    number_sum += number
+# print(number_sum)
 
-print(number_sum)
+# car = {
+#     "brand": "Toyota",
+#     "year_of_produce": 2022,
+# }
+
+# for key, value in car.items():
+#     print(value)
+
+
+# While loop in python:
+number = 0
+
+while number < 10:
+    print(number + 1)
+    number += 1
