@@ -1,3 +1,4 @@
+from calculator import add
 
 
 # if statement:
@@ -141,6 +142,8 @@ lettersB = {"D", "E", "F"}
 #         print("You are not elegable yet")
 # check_age(19)
 
-import math
+# from math import ceil
+#
+# print(ceil(2.3445))
 
-print(math.ceil(2.3445))
+print(add(2, 3))
