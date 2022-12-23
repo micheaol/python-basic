@@ -187,6 +187,22 @@ class Person:
 
 
 
-lady = Person("Moji", "female", 23, 3.67)
-lady.say_hello()
-lady.is_adult()
+# lady = Person("Moji", "female", 23, 3.67)
+# lady.say_hello()
+# lady.is_adult()
+
+
+
+class Airplane:
+
+    def __init__(self, brand, fleat_number, number_seats):
+        self.brand = brand
+        self.fleat_number = fleat_number
+        self.number_seats = number_seats
+
+    def fly(self):
+        print(f"{self.fleat_number} is flying")
+
+
+boan_323 = Airplane("boan_323", "F323", 34)
+boan_323.fly()
