@@ -146,4 +146,22 @@ lettersB = {"D", "E", "F"}
 #
 # print(ceil(2.3445))
 
-print(add(2, 3))
+# print(add(2, 3))
+
+# python class declaration:
+class Car:
+    def __init__(self, brand, color, year):
+        self.brand = brand
+        self.color = color
+        self.year = year
+    def drive(self, speed):
+        print(f"{self.brand} is moving on {speed}/kmph")
+
+
+toyota = Car("Toyota", "Blue", 2008)
+benz = Car("Benz", "Green", 2008)
+jeep = Car("Jeep", "Blue", 2008)
+
+toyota.drive(200)
+benz.drive(300)
+jeep.drive(150)
