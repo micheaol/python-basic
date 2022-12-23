@@ -1,4 +1,5 @@
 from calculator import add
+import datetime
 
 
 # if statement:
@@ -149,18 +150,18 @@ lettersB = {"D", "E", "F"}
 # print(add(2, 3))
 
 # python class declaration:
-class Car:
-    def __init__(self, brand, color, year):
-        self.brand = brand
-        self.color = color
-        self.year = year
-    def drive(self, speed):
-        print(f"{self.brand} is moving on {speed}/kmph")
-
-
-toyota = Car("Toyota", "Blue", 2008)
-benz = Car("Benz", "Green", 2008)
-jeep = Car("Jeep", "Blue", 2008)
+# class Car:
+#     def __init__(self, brand, color, year):
+#         self.brand = brand
+#         self.color = color
+#         self.year = year
+#     def drive(self, speed):
+#         print(f"{self.brand} is moving on {speed}/kmph")
+#
+#
+# toyota = Car("Toyota", "Blue", 2008)
+# benz = Car("Benz", "Green", 2008)
+# jeep = Car("Jeep", "Blue", 2008)
 #
 # toyota.drive(200)
 # benz.drive(300)
@@ -169,40 +170,53 @@ jeep = Car("Jeep", "Blue", 2008)
 
 
 
-class Person:
-    def __init__(self, name, sex, age, height):
-        self.sex = sex
-        self.name = name
-        self.age = age
-        self.height = height
-    def speak(self, language):
-        print(f"Says hello in {language}")
+# class Person:
+#     def __init__(self, name, sex, age, height):
+#         self.sex = sex
+#         self.name = name
+#         self.age = age
+#         self.height = height
+#     def speak(self, language):
+#         print(f"Says hello in {language}")
+#
+#     def say_hello(self):
+#         print(f"Hello {self.name}, how are you today")
+#
+#     def is_adult(self):
+#         if self.age >= 18:
+#             print("You are an adult")
+#
+#
+#
+# # lady = Person("Moji", "female", 23, 3.67)
+# # lady.say_hello()
+# # lady.is_adult()
+#
+#
+#
+# class Airplane:
+#
+#     def __init__(self, brand, fleat_number, number_seats):
+#         self.brand = brand
+#         self.fleat_number = fleat_number
+#         self.number_seats = number_seats
+#
+#     def fly(self):
+#         print(f"{self.fleat_number} is flying")
+#
+#
+# boan_323 = Airplane("boan_323", "F323", 34)
+# boan_323.fly()
 
-    def say_hello(self):
-        print(f"Hello {self.name}, how are you today")
-
-    def is_adult(self):
-        if self.age >= 18:
-            print("You are an adult")
 
 
 
-# lady = Person("Moji", "female", 23, 3.67)
-# lady.say_hello()
-# lady.is_adult()
+# Python Date-Time:
+now = datetime.datetime.now()
+print(now)
 
 
+print(now.strftime("%d-%m-%Y %H:%M:%S"))
+#to format to the name of the month
+print(now.strftime("%d-%B-%Y %H:%M:%S"))
 
-class Airplane:
-
-    def __init__(self, brand, fleat_number, number_seats):
-        self.brand = brand
-        self.fleat_number = fleat_number
-        self.number_seats = number_seats
-
-    def fly(self):
-        print(f"{self.fleat_number} is flying")
-
-
-boan_323 = Airplane("boan_323", "F323", 34)
-boan_323.fly()
