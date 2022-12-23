@@ -161,7 +161,32 @@ class Car:
 toyota = Car("Toyota", "Blue", 2008)
 benz = Car("Benz", "Green", 2008)
 jeep = Car("Jeep", "Blue", 2008)
+#
+# toyota.drive(200)
+# benz.drive(300)
+# jeep.drive(150)
 
-toyota.drive(200)
-benz.drive(300)
-jeep.drive(150)
+
+
+
+class Person:
+    def __init__(self, name, sex, age, height):
+        self.sex = sex
+        self.name = name
+        self.age = age
+        self.height = height
+    def speak(self, language):
+        print(f"Says hello in {language}")
+
+    def say_hello(self):
+        print(f"Hello {self.name}, how are you today")
+
+    def is_adult(self):
+        if self.age >= 18:
+            print("You are an adult")
+
+
+
+lady = Person("Moji", "female", 23, 3.67)
+lady.say_hello()
+lady.is_adult()
